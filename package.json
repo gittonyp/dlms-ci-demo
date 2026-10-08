@@ -1,0 +1,17 @@
+{
+  "name": "dlms-ci-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digital Library Management System validation modules used as the CI/CD pipeline target for Assignment 06",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:junit": "vitest run --reporter=default --reporter=junit --outputFile.junit=reports/junit.xml",
+    "coverage": "vitest run --coverage",
+    "coverage:ci": "vitest run --coverage --reporter=default --reporter=junit --outputFile.junit=reports/junit.xml"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "vitest": "^3.2.4"
+  }
+}

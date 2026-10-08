@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="6" failures="0" errors="0" time="0.016831665">
+    <testsuite name="src/bookValidation.test.js" timestamp="2026-10-08T16:07:00.402Z" hostname="tony-82kd" tests="3" failures="0" errors="0" skipped="0" time="0.008164996">
+        <testcase classname="src/bookValidation.test.js" name="Book Management &gt; should accept valid book details" time="0.003157548">
+        </testcase>
+        <testcase classname="src/bookValidation.test.js" name="Book Management &gt; should reject empty book title" time="0.000925963">
+        </testcase>
+        <testcase classname="src/bookValidation.test.js" name="Book Management &gt; should reject empty author" time="0.00047688">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/loginValidation.test.js" timestamp="2026-10-08T16:07:00.410Z" hostname="tony-82kd" tests="3" failures="0" errors="0" skipped="0" time="0.008666669">
+        <testcase classname="src/loginValidation.test.js" name="Login Validation &gt; should accept valid username and password" time="0.003180386">
+        </testcase>
+        <testcase classname="src/loginValidation.test.js" name="Login Validation &gt; should reject empty username" time="0.0010903">
+        </testcase>
+        <testcase classname="src/loginValidation.test.js" name="Login Validation &gt; should reject short password" time="0.000681517">
+        </testcase>
+    </testsuite>
+</testsuites>
